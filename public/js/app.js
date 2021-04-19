@@ -3817,6 +3817,9 @@ $('.save_task').click(function () {
 $('.close_modal').click(function () {
   $(this).parents('.task_modal').removeClass('show_modal');
 });
+$('.new_task').click(function () {
+  $('.create_task_modal').addClass('show_modal');
+});
 
 /***/ }),
 
