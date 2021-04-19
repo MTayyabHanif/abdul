@@ -1,0 +1,15 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+p.task-description {
+    max-width: 460px;
+    white-space: break-spaces;
+}
+.task_modal{
+    display: none;
+}
+
+.show_modal{
+    display: flex;
+}
